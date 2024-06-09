@@ -488,7 +488,7 @@ int getaccno(){
 void pass(){
 	int i;
 	static int count = 0, k = 3;
-	char temp[8], keyword[10] = "password";
+	char temp[9] = {'\0'}, keyword[9] = "password\0";
 	system("CLS");
 	printf("\n\n\n\n\n\n\t\t\tEnter Password To Enter into the System(Enter -1XXXXXX to exit) : ");
 	printf("\n\t\t\t "); fflush(stdin); 
